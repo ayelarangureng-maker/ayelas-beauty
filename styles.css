@@ -219,3 +219,15 @@
   .grid-productos {
     width: 100%;
   }
+
+  /* ===== EFECTO LUJO ===== */
+
+.card {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  }
